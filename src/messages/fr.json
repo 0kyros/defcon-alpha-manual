@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "DEFCON ALPHA — Manuel Opérationnel",
+    "description": "Manuel de référence professionnel sur la guerre moderne. Doctrine OTAN, retours d'expérience Ukraine 2022–2026, fondamentaux pour volontaires et personnel opérationnel."
+  },
+  "nav": {
+    "home": "Accueil",
+    "manual": "Manuel",
+    "about": "Mission",
+    "language": "Langue"
+  },
+  "landing": {
+    "tag": "DOCUMENT TECHNIQUE — USAGE FORMATIF",
+    "hero": {
+      "title": "Manuel Opérationnel",
+      "subtitle": "Référence professionnelle sur la guerre moderne. Fondée sur la doctrine OTAN, les retours d'expérience d'Ukraine 2022–2026 et la pratique opérationnelle des unités de volontaires internationaux.",
+      "cta": "Ouvrir le manuel",
+      "ctaSecondary": "Table des matières complète"
+    },
+    "scope": {
+      "title": "Périmètre",
+      "body": "Ce manuel est une référence professionnelle éducative. Pas de propagande, pas de guide civil, pas de cours simplifié. Texte technique pour le volontaire international s'intégrant dans des structures opérationnelles modernes, avec un focus sur le théâtre ukrainien et l'expérience de Defcon Alpha.",
+      "items": [
+        "Doctrine conventionnelle OTAN et variations doctrinales post-soviétiques",
+        "Retours d'expérience du théâtre Ukraine 2022–2026",
+        "Communications, terminologie, OPSEC, état d'esprit opérationnel",
+        "Encyclopédie des armements au niveau doctrinal (aucune instruction opérationnelle ou de fabrication)",
+        "Glossaire multilingue pour intégration multinationale"
+      ]
+    },
+    "levels": {
+      "title": "Structure du manuel",
+      "subtitle": "Quatre niveaux plus des sections encyclopédiques dédiées.",
+      "level1": {
+        "label": "NIVEAU I",
+        "title": "Foundation",
+        "body": "État d'esprit professionnel, structure militaire, grades OTAN, OPSEC, alphabet phonétique, MGRS, symbologie, terminologie de base."
+      },
+      "level2": {
+        "label": "NIVEAU II",
+        "title": "Infantry & Fieldcraft",
+        "body": "Mouvement tactique, camouflage, patrouille, combat urbain et de tranchée, fondamentaux CQB, postes d'observation, combat de nuit."
+      },
+      "level3": {
+        "label": "NIVEAU III",
+        "title": "Modern Warfare",
+        "body": "Drones FPV, EW, SIGINT, survie à l'artillerie, discipline radio, conscience tactique, kill chain moderne."
+      },
+      "level4": {
+        "label": "NIVEAU IV",
+        "title": "Operator Mindset",
+        "body": "Prise de décision sous stress, leadership de petite unité, sang-froid, résilience, cohésion, AAR, planification de mission."
+      },
+      "weapons": {
+        "label": "SECTION V",
+        "title": "Armements",
+        "body": "Référence encyclopédique : plateformes AK/AR, PKM, SVD, RPG, ATGM, MANPADS, mortiers, optiques, thermiques, NVG, radios."
+      },
+      "comms": {
+        "label": "SECTION VI",
+        "title": "Communications",
+        "body": "Brevity OTAN, indicatifs, contact report, SITREP, SALUTE, MEDEVAC 9-line, prowords, authentification."
+      },
+      "linguistic": {
+        "label": "SECTION VII",
+        "title": "Glossaire multilingue",
+        "body": "Terminologie opérationnelle parallèle en italien, anglais, portugais brésilien et français."
+      }
+    },
+    "osint": {
+      "label": "§ OSINT",
+      "title": "Références publiques — militaryland.net",
+      "subtitle": "Matériel indexé publiquement par militaryland.net sur le 2ᵉ Détachement d'Opérations Spéciales « KORD » (HUR). Déjà dans le domaine public ; republié ici pour référence éducative avec attribution explicite à la source.",
+      "note": "SOURCE : MILITARYLAND.NET / 2ND SPECIAL OPERATIONS DETACHMENT KORD — HUR. CONTENU OSINT PUBLIC INDEXÉ. MÉTADONNÉES EXIF/GPS RETIRÉES À LA PUBLICATION.",
+      "alts": [
+        "Documentation photographique publique du détachement KORD — image 006",
+        "Documentation photographique publique du détachement KORD — image 243",
+        "Documentation photographique publique du détachement KORD — image 104409",
+        "Documentation photographique publique du détachement KORD — image 104643"
+      ],
+      "captions": [
+        "Source : militaryland.net. Profil public 2nd SOD KORD / HUR.",
+        "Source : militaryland.net. Profil public 2nd SOD KORD / HUR.",
+        "Source : militaryland.net. Profil public 2nd SOD KORD / HUR.",
+        "Source : militaryland.net. Profil public 2nd SOD KORD / HUR."
+      ]
+    },
+    "disclaimer": {
+      "title": "Limites du document",
+      "body": "Le manuel ne fournit aucune instruction illégale, aucune procédure terroriste, aucun détail de fabrication d'armes ou d'explosifs, ni aucune tactique criminelle. Texte formatif orienté compréhension, communication, discipline et organisation professionnelle."
+    },
+    "footer": {
+      "credit": "Document éducatif. Ne constitue ni recrutement, ni entraînement opérationnel, ni incitation.",
+      "version": "Édition 0.1 — brouillon public"
+    }
+  },
+  "manual": {
+    "title": "Manuel",
+    "subtitle": "Table des matières complète.",
+    "back": "Retour",
+    "next": "Chapitre suivant",
+    "prev": "Chapitre précédent",
+    "section": "Section",
+    "chapter": "Chapitre",
+    "tableOfContents": "Sommaire",
+    "draft": "Brouillon",
+    "available": "Disponible",
+    "readingTime": "Lecture",
+    "minutes": "min"
+  },
+  "sections": {
+    "foundation": {
+      "title": "Foundation",
+      "intro": "Transformer un débutant complet en personne capable de comprendre le monde militaire moderne : état d'esprit, structure, terminologie, sécurité de l'information, cartographie et communications de base."
+    },
+    "infantry": {
+      "title": "Infantry & Fieldcraft",
+      "intro": "Formation d'infanterie moderne. Mouvement, camouflage, patrouille, environnements urbains et de tranchée, fondamentaux CQB, OP, reconnaissance, conscience anti-drone."
+    },
+    "modern-warfare": {
+      "title": "Modern Warfare",
+      "intro": "Guerre moderne ukrainienne : drones FPV, EW, SIGINT, survie à l'artillerie, discipline radio, OSINT de champ, kill chain contemporaine."
+    },
+    "operator-mindset": {
+      "title": "Professional Operator Mindset",
+      "intro": "Décision sous stress, leadership de petite unité, discipline mentale, résilience, cohésion, after-action review, conduite professionnelle."
+    },
+    "weapons": {
+      "title": "Armements",
+      "intro": "Section encyclopédique : rôle, nomenclature, terminologie, variantes, emploi tactique général et diffusion en Ukraine. Pas d'instruction opérationnelle ni constructive."
+    },
+    "comms": {
+      "title": "Communications",
+      "intro": "Brevity OTAN, authentification, indicatifs, formats de report, terminologie MEDEVAC, prowords, exemples réalistes de trafic radio."
+    },
+    "linguistic": {
+      "title": "Glossaire multilingue",
+      "intro": "Terminologie opérationnelle parallèle : infanterie, radio, drones, médical, renseignement, urbain, artillerie — IT / EN / PT-BR / FR."
+    }
+  },
+  "chapters": {
+    "foundation": {
+      "mindset": "État d'esprit professionnel",
+      "structure": "Structure militaire moderne",
+      "ranks-nato": "Grades OTAN",
+      "terminology": "Terminologie de base",
+      "opsec": "OPSEC et sécurité de l'information",
+      "equipment": "Équipement individuel",
+      "firearm-safety": "Instructions — Sécurité des armes",
+      "phonetic-alphabet": "Alphabet phonétique OTAN",
+      "brevity-codes": "Brevity codes",
+      "military-time": "Heure militaire et Zulu",
+      "map-reading": "Lecture de carte",
+      "mgrs": "Coordonnées MGRS",
+      "nato-symbols": "Symbologie OTAN"
+    },
+    "infantry": {
+      "tactical-movement": "Mouvement tactique",
+      "camouflage": "Camouflage et dissimulation",
+      "patrolling": "Patrouille",
+      "urban-warfare": "Combat urbain",
+      "trench-warfare": "Guerre de tranchée",
+      "cqb-fundamentals": "Fondamentaux CQB",
+      "observation-posts": "Postes d'observation",
+      "recon-basics": "Reconnaissance — bases",
+      "anti-drone-awareness": "Conscience anti-drone",
+      "night-combat": "Combat de nuit",
+      "nato-vs-post-soviet": "OTAN vs doctrine post-soviétique",
+      "common-mistakes": "Erreurs fréquentes des volontaires étrangers"
+    },
+    "modern-warfare": {
+      "fpv-drones": "Drones FPV",
+      "electronic-warfare": "Guerre électronique",
+      "sigint": "SIGINT",
+      "thermal-warfare": "Combat thermique",
+      "artillery-survival": "Survie à l'artillerie",
+      "anti-fpv-behavior": "Comportement anti-FPV",
+      "vehicle-camouflage": "Camouflage véhicule",
+      "comms-discipline": "Discipline radio",
+      "battlefield-awareness": "Conscience tactique",
+      "kill-chain": "Kill chain moderne",
+      "osint-battlefield": "OSINT de champ",
+      "black-sea-ops": "Opérations Mer Noire",
+      "defcon-alpha": "Defcon Alpha"
+    },
+    "operator-mindset": {
+      "decision-making": "Décision sous stress",
+      "small-unit-leadership": "Leadership de petite unité",
+      "mental-discipline": "Discipline mentale",
+      "cold-blood": "Sang-froid",
+      "resilience": "Résilience",
+      "team-cohesion": "Cohésion d'équipe",
+      "adaptive-thinking": "Pensée adaptative",
+      "combat-psychology": "Psychologie du combat",
+      "professional-conduct": "Conduite professionnelle",
+      "mission-planning": "Planification de mission — bases",
+      "after-action-review": "After Action Review"
+    },
+    "weapons": {
+      "ak-platform": "Plateforme AK",
+      "ar-platform": "Plateforme AR",
+      "pkm": "PKM",
+      "svd": "SVD",
+      "rpg-series": "Série RPG",
+      "atgm": "ATGM",
+      "manpads": "MANPADS",
+      "mortars": "Mortiers",
+      "machine-guns": "Mitrailleuses",
+      "optics-thermals": "Optiques et thermiques",
+      "nvg": "NVG",
+      "radios": "Radios",
+      "drones-overview": "Drones — panorama"
+    },
+    "comms": {
+      "radio-discipline": "Discipline radio",
+      "authentication": "Authentification",
+      "callsigns": "Indicatifs",
+      "contact-report": "Contact report",
+      "sitrep": "SITREP",
+      "salute": "Report SALUTE",
+      "medevac-9line": "MEDEVAC 9-line",
+      "prowords": "Prowords"
+    },
+    "linguistic": {
+      "glossary-infantry": "Glossaire — Infanterie",
+      "glossary-radio": "Glossaire — Radio",
+      "glossary-drones": "Glossaire — Drones",
+      "glossary-medical": "Glossaire — Médical",
+      "glossary-intel": "Glossaire — Renseignement",
+      "glossary-urban": "Glossaire — Urbain",
+      "glossary-artillery": "Glossaire — Artillerie"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+# docker-compose.yml — Self-hosted production deploy
+#
+# Two services:
+# - web: the Next.js app (port 3000 internal)
+# - caddy: reverse proxy + automatic Let's Encrypt SSL on ports 80/443
+#
+# Requirements on the VPS:
+# - Docker + docker-compose installed
+# - DNS A record for www.2k11c.shop → VPS public IP
+# - Ports 80 and 443 open on the firewall
+# - SITE_URL env var set in .env (or copy .env.example to .env)
+#
+# Usage:
+#   docker compose up -d --build
+#   docker compose logs -f
+#   docker compose down
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://www.2k11c.shop}
+    container_name: defcon-web
+    restart: unless-stopped
+    expose:
+      - "3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    networks:
+      - edge
+
+  caddy:
+    image: caddy:2-alpine
+    container_name: defcon-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"   # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - web
+    networks:
+      - edge
+
+networks:
+  edge:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:
