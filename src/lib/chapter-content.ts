@@ -19,6 +19,7 @@ const REGISTRY: Partial<Record<`${SectionId}/${string}`, Loader>> = {
   "foundation/equipment": () => import("@/content/foundation/equipment"),
   "foundation/firearm-safety": () =>
     import("@/content/foundation/firearm-safety"),
+  "foundation/tta-150-tir": () => import("@/content/foundation/tta-150-tir"),
   "foundation/phonetic-alphabet": () =>
     import("@/content/foundation/phonetic-alphabet"),
   "foundation/brevity-codes": () =>

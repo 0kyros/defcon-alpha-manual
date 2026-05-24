@@ -32,6 +32,7 @@ export const MANUAL_STRUCTURE: readonly Section[] = [
       { slug: "opsec", hasContent: true },
       { slug: "equipment", hasContent: true },
       { slug: "firearm-safety", hasContent: true },
+      { slug: "tta-150-tir", hasContent: true },
       { slug: "phonetic-alphabet", hasContent: true },
       { slug: "brevity-codes", hasContent: true },
       { slug: "military-time", hasContent: true },
